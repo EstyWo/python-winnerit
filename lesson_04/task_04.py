@@ -1,0 +1,7 @@
+number = list(range(1, 17))
+a = number.pop(-1)
+b = number.pop(0)
+c = number.pop(12)
+d = number.pop(7)
+print (number)
+print (f"sum of removed = {a+b+c+d}")
