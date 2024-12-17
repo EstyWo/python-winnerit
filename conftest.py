@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 def browser():
     options = Options()
     options.add_argument("--headless")
-    driver = webdriver.Chrome(options=options
+    driver = webdriver.Chrome(options=options)
     driver = webdriver.Chrome()
     driver.maximize_window()
     yield driver
